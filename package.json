@@ -1,13 +1,12 @@
 {
   "name": "mcp-client-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "MCP TypeScript is based on OpenAI's model.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node ./build/index.js D:\\myutil\\xb-mcp\\index.js",
-    "build": "tsc",
-    "deepseek": "node ./build/deepseek.js"
+    "start": "tsc && node ./build/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
